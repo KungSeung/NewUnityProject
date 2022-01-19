@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.VicoVRCalibration
+  commentId: N:nuitrack.VicoVRCalibration
+  id: nuitrack.VicoVRCalibration
+  children:
+  - nuitrack.VicoVRCalibration.BackTextureCreator
+  - nuitrack.VicoVRCalibration.BackTextureCreator.newBackGroundCreate
+  - nuitrack.VicoVRCalibration.RGBCalibrationVisualizer
+  - nuitrack.VicoVRCalibration.SensorDisconnectChecker
+  - nuitrack.VicoVRCalibration.SensorDisconnectChecker.ConnectionStatusChange
+  langs:
+  - csharp
+  - vb
+  name: nuitrack.VicoVRCalibration
+  nameWithType: nuitrack.VicoVRCalibration
+  fullName: nuitrack.VicoVRCalibration
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: nuitrack.VicoVRCalibration.BackTextureCreator
+  commentId: T:nuitrack.VicoVRCalibration.BackTextureCreator
+  name: BackTextureCreator
+  nameWithType: BackTextureCreator
+  fullName: nuitrack.VicoVRCalibration.BackTextureCreator
+- uid: nuitrack.VicoVRCalibration.BackTextureCreator.newBackGroundCreate
+  commentId: T:nuitrack.VicoVRCalibration.BackTextureCreator.newBackGroundCreate
+  parent: nuitrack.VicoVRCalibration
+  name: BackTextureCreator.newBackGroundCreate
+  nameWithType: BackTextureCreator.newBackGroundCreate
+  fullName: nuitrack.VicoVRCalibration.BackTextureCreator.newBackGroundCreate
+- uid: nuitrack.VicoVRCalibration.RGBCalibrationVisualizer
+  commentId: T:nuitrack.VicoVRCalibration.RGBCalibrationVisualizer
+  name: RGBCalibrationVisualizer
+  nameWithType: RGBCalibrationVisualizer
+  fullName: nuitrack.VicoVRCalibration.RGBCalibrationVisualizer
+- uid: nuitrack.VicoVRCalibration.SensorDisconnectChecker
+  commentId: T:nuitrack.VicoVRCalibration.SensorDisconnectChecker
+  name: SensorDisconnectChecker
+  nameWithType: SensorDisconnectChecker
+  fullName: nuitrack.VicoVRCalibration.SensorDisconnectChecker
+- uid: nuitrack.VicoVRCalibration.SensorDisconnectChecker.ConnectionStatusChange
+  commentId: T:nuitrack.VicoVRCalibration.SensorDisconnectChecker.ConnectionStatusChange
+  parent: nuitrack.VicoVRCalibration
+  name: SensorDisconnectChecker.ConnectionStatusChange
+  nameWithType: SensorDisconnectChecker.ConnectionStatusChange
+  fullName: nuitrack.VicoVRCalibration.SensorDisconnectChecker.ConnectionStatusChange
+- uid: nuitrack.VicoVRCalibration
+  commentId: N:nuitrack.VicoVRCalibration
+  name: nuitrack.VicoVRCalibration
+  nameWithType: nuitrack.VicoVRCalibration
+  fullName: nuitrack.VicoVRCalibration

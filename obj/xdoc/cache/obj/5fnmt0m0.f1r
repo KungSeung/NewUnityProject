@@ -1,0 +1,10 @@
+id: Assembly-CSharp-Editor
+language: CSharp
+name:
+  Default: Assembly-CSharp-Editor
+qualifiedName:
+  Default: Assembly-CSharp-Editor
+type: Assembly
+modifiers: {}
+items: []
+references: {}

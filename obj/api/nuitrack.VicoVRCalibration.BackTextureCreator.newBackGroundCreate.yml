@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.VicoVRCalibration.BackTextureCreator.newBackGroundCreate
+  commentId: T:nuitrack.VicoVRCalibration.BackTextureCreator.newBackGroundCreate
+  id: BackTextureCreator.newBackGroundCreate
+  parent: nuitrack.VicoVRCalibration
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BackTextureCreator.newBackGroundCreate
+  nameWithType: BackTextureCreator.newBackGroundCreate
+  fullName: nuitrack.VicoVRCalibration.BackTextureCreator.newBackGroundCreate
+  type: Delegate
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/VicoVRCalibrationRGB/Scripts/BackTextureCreator.cs
+    id: newBackGroundCreate
+    path: Assets/NuitrackSDK/VicoVRCalibrationRGB/Scripts/BackTextureCreator.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.VicoVRCalibration
+  syntax:
+    content: public delegate void newBackGroundCreate(Texture txtr, Texture userTxtr);
+    parameters:
+    - id: txtr
+      type: UnityEngine.Texture
+    - id: userTxtr
+      type: UnityEngine.Texture
+    content.vb: Public Delegate Sub newBackGroundCreate(txtr As Texture, userTxtr As Texture)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: nuitrack.VicoVRCalibration
+  commentId: N:nuitrack.VicoVRCalibration
+  name: nuitrack.VicoVRCalibration
+  nameWithType: nuitrack.VicoVRCalibration
+  fullName: nuitrack.VicoVRCalibration
+- uid: UnityEngine.Texture
+  commentId: T:UnityEngine.Texture
+  parent: UnityEngine
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: UnityEngine.Texture
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

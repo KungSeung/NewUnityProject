@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.VicoVRCalibration.SensorDisconnectChecker.ConnectionStatusChange
+  commentId: T:nuitrack.VicoVRCalibration.SensorDisconnectChecker.ConnectionStatusChange
+  id: SensorDisconnectChecker.ConnectionStatusChange
+  parent: nuitrack.VicoVRCalibration
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SensorDisconnectChecker.ConnectionStatusChange
+  nameWithType: SensorDisconnectChecker.ConnectionStatusChange
+  fullName: nuitrack.VicoVRCalibration.SensorDisconnectChecker.ConnectionStatusChange
+  type: Delegate
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/VicoVRCalibrationRGB/Scripts/SensorDisconnectChecker.cs
+    id: ConnectionStatusChange
+    path: Assets/NuitrackSDK/VicoVRCalibrationRGB/Scripts/SensorDisconnectChecker.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.VicoVRCalibration
+  syntax:
+    content: public delegate void ConnectionStatusChange();
+    content.vb: Public Delegate Sub ConnectionStatusChange
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: nuitrack.VicoVRCalibration
+  commentId: N:nuitrack.VicoVRCalibration
+  name: nuitrack.VicoVRCalibration
+  nameWithType: nuitrack.VicoVRCalibration
+  fullName: nuitrack.VicoVRCalibration

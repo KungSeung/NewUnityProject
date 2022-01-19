@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.PlatformChanger
+  commentId: N:nuitrack.PlatformChanger
+  id: nuitrack.PlatformChanger
+  children:
+  - nuitrack.PlatformChanger.EnviromentSwitcher
+  - nuitrack.PlatformChanger.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: nuitrack.PlatformChanger
+  nameWithType: nuitrack.PlatformChanger
+  fullName: nuitrack.PlatformChanger
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: nuitrack.PlatformChanger.EnviromentSwitcher
+  commentId: T:nuitrack.PlatformChanger.EnviromentSwitcher
+  name: EnviromentSwitcher
+  nameWithType: EnviromentSwitcher
+  fullName: nuitrack.PlatformChanger.EnviromentSwitcher
+- uid: nuitrack.PlatformChanger.GameVersion
+  commentId: T:nuitrack.PlatformChanger.GameVersion
+  name: GameVersion
+  nameWithType: GameVersion
+  fullName: nuitrack.PlatformChanger.GameVersion

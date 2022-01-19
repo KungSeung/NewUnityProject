@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kn2VUQK1MINZ9L1CW0VjexAD2gVsUlOBMj+nZamGWtniv5WghPEHV2LabYYKOEOz5SQPQ9V1gcBI7XQX5d30Kw==",
+  "success": true,
+  "projectFilePath": "C:\\UnityProject\\NewTest\\Assembly-CSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MGSolutions\\.nuget\\packages\\docfx.console\\2.58.3\\docfx.console.2.58.3.nupkg.sha512"
+  ],
+  "logs": []
+}

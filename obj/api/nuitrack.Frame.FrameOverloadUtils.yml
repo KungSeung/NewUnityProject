@@ -1,0 +1,923 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.Frame.FrameOverloadUtils
+  commentId: T:nuitrack.Frame.FrameOverloadUtils
+  id: FrameOverloadUtils
+  parent: nuitrack.Frame
+  children:
+  - nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  - nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  langs:
+  - csharp
+  - vb
+  name: FrameOverloadUtils
+  nameWithType: FrameOverloadUtils
+  fullName: nuitrack.Frame.FrameOverloadUtils
+  type: Class
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: FrameOverloadUtils
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 72
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  syntax:
+    content: public static class FrameOverloadUtils
+    content.vb: Public Module FrameOverloadUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  id: ToRenderTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToRenderTexture(ColorFrame, TextureCache)
+  nameWithType: FrameOverloadUtils.ToRenderTexture(ColorFrame, TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.ColorFrame, nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToRenderTexture
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 83
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nGet the ColorFrame as a RenderTexture. \nRecommended method for platforms with ComputeShader support.\n"
+  example: []
+  syntax:
+    content: public static RenderTexture ToRenderTexture(this ColorFrame frame, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.ColorFrame
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.RenderTexture
+      description: ColorFrame converted to RenderTexture
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRenderTexture(frame As ColorFrame, textureCache As TextureCache = Nothing) As RenderTexture
+  overload: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  id: ToTexture2D(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToTexture2D(ColorFrame, TextureCache)
+  nameWithType: FrameOverloadUtils.ToTexture2D(ColorFrame, TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.ColorFrame, nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToTexture2D
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 96
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nGet a ColorFrame in the form of Texture2D. \nFor platforms with ComputeShader support, it may be slower than GetRenderTexture. \nIf possible, use GetRenderTexture.\n"
+  example: []
+  syntax:
+    content: public static Texture2D ToTexture2D(this ColorFrame frame, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.ColorFrame
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.Texture2D
+      description: ColorFrame converted to RenderTexture
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTexture2D(frame As ColorFrame, textureCache As TextureCache = Nothing) As Texture2D
+  overload: nuitrack.Frame.FrameOverloadUtils.ToTexture2D*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  id: ToTexture(nuitrack.ColorFrame,nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToTexture(ColorFrame, TextureCache)
+  nameWithType: FrameOverloadUtils.ToTexture(ColorFrame, TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.ColorFrame, nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToTexture
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 107
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nSee the method description: <xref href=\"nuitrack.Frame.FrameToTexture%602.GetTexture(%600%2cnuitrack.Frame.TextureCache)\" data-throw-if-not-resolved=\"false\"></xref> \n"
+  example: []
+  syntax:
+    content: public static Texture ToTexture(this ColorFrame frame, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.ColorFrame
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.Texture
+      description: Texture = (RenderTexture or Texture2D)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTexture(frame As ColorFrame, textureCache As TextureCache = Nothing) As Texture
+  overload: nuitrack.Frame.FrameOverloadUtils.ToTexture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  id: ToRenderTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToRenderTexture(DepthFrame, TextureCache)
+  nameWithType: FrameOverloadUtils.ToRenderTexture(DepthFrame, TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.DepthFrame, nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToRenderTexture
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 123
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nGet the DepthFrame as a RenderTexture. \nRecommended method for platforms with ComputeShader support.\n"
+  example: []
+  syntax:
+    content: public static RenderTexture ToRenderTexture(this DepthFrame frame, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.DepthFrame
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.RenderTexture
+      description: DepthFrame converted to RenderTexture
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRenderTexture(frame As DepthFrame, textureCache As TextureCache = Nothing) As RenderTexture
+  overload: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  id: ToTexture2D(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToTexture2D(DepthFrame, TextureCache)
+  nameWithType: FrameOverloadUtils.ToTexture2D(DepthFrame, TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.DepthFrame, nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToTexture2D
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 136
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nGet a DepthFrame in the form of Texture2D. \nFor platforms with ComputeShader support, it may be slower than GetRenderTexture. \nIf possible, use GetRenderTexture.\n"
+  example: []
+  syntax:
+    content: public static Texture2D ToTexture2D(this DepthFrame frame, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.DepthFrame
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.Texture2D
+      description: DepthFrame converted to Texture2D
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTexture2D(frame As DepthFrame, textureCache As TextureCache = Nothing) As Texture2D
+  overload: nuitrack.Frame.FrameOverloadUtils.ToTexture2D*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  id: ToTexture(nuitrack.DepthFrame,nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToTexture(DepthFrame, TextureCache)
+  nameWithType: FrameOverloadUtils.ToTexture(DepthFrame, TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.DepthFrame, nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToTexture
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 147
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nSee the method description: <xref href=\"nuitrack.Frame.FrameToTexture%602.GetTexture(%600%2cnuitrack.Frame.TextureCache)\" data-throw-if-not-resolved=\"false\"></xref> \n"
+  example: []
+  syntax:
+    content: public static Texture ToTexture(this DepthFrame frame, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.DepthFrame
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.Texture
+      description: Texture = (RenderTexture or Texture2D)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTexture(frame As DepthFrame, textureCache As TextureCache = Nothing) As Texture
+  overload: nuitrack.Frame.FrameOverloadUtils.ToTexture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  id: ToRenderTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToRenderTexture(UserFrame, Color[], TextureCache)
+  nameWithType: FrameOverloadUtils.ToRenderTexture(UserFrame, Color[], TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.UserFrame, UnityEngine.Color[], nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToRenderTexture
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 164
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nGet the UserFrame as a RenderTexture. \nRecommended method for platforms with ComputeShader support.\n"
+  example: []
+  syntax:
+    content: public static RenderTexture ToRenderTexture(this UserFrame frame, Color[] userColors = null, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.UserFrame
+    - id: userColors
+      type: UnityEngine.Color[]
+      description: Colors for user segments (optional).
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.RenderTexture
+      description: UserFrame converted to RenderTexture
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRenderTexture(frame As UserFrame, userColors As Color() = Nothing, textureCache As TextureCache = Nothing) As RenderTexture
+  overload: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture*
+  nameWithType.vb: FrameOverloadUtils.ToRenderTexture(UserFrame, Color(), TextureCache)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture(nuitrack.UserFrame, UnityEngine.Color(), nuitrack.Frame.TextureCache)
+  name.vb: ToRenderTexture(UserFrame, Color(), TextureCache)
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  id: ToTexture2D(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToTexture2D(UserFrame, Color[], TextureCache)
+  nameWithType: FrameOverloadUtils.ToTexture2D(UserFrame, Color[], TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.UserFrame, UnityEngine.Color[], nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToTexture2D
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 178
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nGet a UserFrame in the form of Texture2D. \nFor platforms with ComputeShader support, it may be slower than GetRenderTexture. \nIf possible, use GetRenderTexture.\n"
+  example: []
+  syntax:
+    content: public static Texture2D ToTexture2D(this UserFrame frame, Color[] userColors = null, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.UserFrame
+    - id: userColors
+      type: UnityEngine.Color[]
+      description: Colors for user segments (optional).
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.Texture2D
+      description: UserFrame converted to Texture2D
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTexture2D(frame As UserFrame, userColors As Color() = Nothing, textureCache As TextureCache = Nothing) As Texture2D
+  overload: nuitrack.Frame.FrameOverloadUtils.ToTexture2D*
+  nameWithType.vb: FrameOverloadUtils.ToTexture2D(UserFrame, Color(), TextureCache)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: nuitrack.Frame.FrameOverloadUtils.ToTexture2D(nuitrack.UserFrame, UnityEngine.Color(), nuitrack.Frame.TextureCache)
+  name.vb: ToTexture2D(UserFrame, Color(), TextureCache)
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  id: ToTexture(nuitrack.UserFrame,UnityEngine.Color[],nuitrack.Frame.TextureCache)
+  isExtensionMethod: true
+  parent: nuitrack.Frame.FrameOverloadUtils
+  langs:
+  - csharp
+  - vb
+  name: ToTexture(UserFrame, Color[], TextureCache)
+  nameWithType: FrameOverloadUtils.ToTexture(UserFrame, Color[], TextureCache)
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.UserFrame, UnityEngine.Color[], nuitrack.Frame.TextureCache)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    id: ToTexture
+    path: Assets/NuitrackSDK/Nuitrack/Scripts/FrameUtils/FrameUtils.cs
+    startLine: 190
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Frame
+  summary: "\nSee the method description: <xref href=\"nuitrack.Frame.FrameToTexture%602.GetTexture(%600%2cnuitrack.Frame.TextureCache)\" data-throw-if-not-resolved=\"false\"></xref> \n"
+  example: []
+  syntax:
+    content: public static Texture ToTexture(this UserFrame frame, Color[] userColors = null, TextureCache textureCache = null)
+    parameters:
+    - id: frame
+      type: nuitrack.UserFrame
+    - id: userColors
+      type: UnityEngine.Color[]
+      description: Colors for user segments (optional)
+    - id: textureCache
+      type: nuitrack.Frame.TextureCache
+      description: "(optional) If you want to get a separate copy of the texture, \nand not a cached version, pass a reference to the local texture (may affect performance)"
+    return:
+      type: UnityEngine.Texture
+      description: Texture = (RenderTexture or Texture2D)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTexture(frame As UserFrame, userColors As Color() = Nothing, textureCache As TextureCache = Nothing) As Texture
+  overload: nuitrack.Frame.FrameOverloadUtils.ToTexture*
+  nameWithType.vb: FrameOverloadUtils.ToTexture(UserFrame, Color(), TextureCache)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: nuitrack.Frame.FrameOverloadUtils.ToTexture(nuitrack.UserFrame, UnityEngine.Color(), nuitrack.Frame.TextureCache)
+  name.vb: ToTexture(UserFrame, Color(), TextureCache)
+references:
+- uid: nuitrack.Frame
+  commentId: N:nuitrack.Frame
+  name: nuitrack.Frame
+  nameWithType: nuitrack.Frame
+  fullName: nuitrack.Frame
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture*
+  commentId: Overload:nuitrack.Frame.FrameOverloadUtils.ToRenderTexture
+  name: ToRenderTexture
+  nameWithType: FrameOverloadUtils.ToRenderTexture
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToRenderTexture
+- uid: nuitrack.ColorFrame
+  commentId: T:nuitrack.ColorFrame
+  parent: nuitrack
+  isExternal: true
+  name: ColorFrame
+  nameWithType: ColorFrame
+  fullName: nuitrack.ColorFrame
+- uid: nuitrack.Frame.TextureCache
+  commentId: T:nuitrack.Frame.TextureCache
+  parent: nuitrack.Frame
+  name: TextureCache
+  nameWithType: TextureCache
+  fullName: nuitrack.Frame.TextureCache
+- uid: UnityEngine.RenderTexture
+  commentId: T:UnityEngine.RenderTexture
+  parent: UnityEngine
+  isExternal: true
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: UnityEngine.RenderTexture
+- uid: nuitrack
+  commentId: N:nuitrack
+  isExternal: true
+  name: nuitrack
+  nameWithType: nuitrack
+  fullName: nuitrack
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture2D*
+  commentId: Overload:nuitrack.Frame.FrameOverloadUtils.ToTexture2D
+  name: ToTexture2D
+  nameWithType: FrameOverloadUtils.ToTexture2D
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture2D
+- uid: UnityEngine.Texture2D
+  commentId: T:UnityEngine.Texture2D
+  parent: UnityEngine
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: UnityEngine.Texture2D
+- uid: nuitrack.Frame.FrameToTexture`2.GetTexture(`0,nuitrack.Frame.TextureCache)
+  commentId: M:nuitrack.Frame.FrameToTexture`2.GetTexture(`0,nuitrack.Frame.TextureCache)
+  name: GetTexture(T, TextureCache)
+  nameWithType: FrameToTexture<T, U>.GetTexture(T, TextureCache)
+  fullName: nuitrack.Frame.FrameToTexture<T, U>.GetTexture(T, nuitrack.Frame.TextureCache)
+  nameWithType.vb: FrameToTexture(Of T, U).GetTexture(T, TextureCache)
+  fullName.vb: nuitrack.Frame.FrameToTexture(Of T, U).GetTexture(T, nuitrack.Frame.TextureCache)
+  spec.csharp:
+  - uid: nuitrack.Frame.FrameToTexture`2.GetTexture(`0,nuitrack.Frame.TextureCache)
+    name: GetTexture
+    nameWithType: FrameToTexture<T, U>.GetTexture
+    fullName: nuitrack.Frame.FrameToTexture<T, U>.GetTexture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: nuitrack.Frame.TextureCache
+    name: TextureCache
+    nameWithType: TextureCache
+    fullName: nuitrack.Frame.TextureCache
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: nuitrack.Frame.FrameToTexture`2.GetTexture(`0,nuitrack.Frame.TextureCache)
+    name: GetTexture
+    nameWithType: FrameToTexture(Of T, U).GetTexture
+    fullName: nuitrack.Frame.FrameToTexture(Of T, U).GetTexture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: nuitrack.Frame.TextureCache
+    name: TextureCache
+    nameWithType: TextureCache
+    fullName: nuitrack.Frame.TextureCache
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: nuitrack.Frame.FrameOverloadUtils.ToTexture*
+  commentId: Overload:nuitrack.Frame.FrameOverloadUtils.ToTexture
+  name: ToTexture
+  nameWithType: FrameOverloadUtils.ToTexture
+  fullName: nuitrack.Frame.FrameOverloadUtils.ToTexture
+- uid: UnityEngine.Texture
+  commentId: T:UnityEngine.Texture
+  parent: UnityEngine
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: UnityEngine.Texture
+- uid: nuitrack.DepthFrame
+  commentId: T:nuitrack.DepthFrame
+  parent: nuitrack
+  isExternal: true
+  name: DepthFrame
+  nameWithType: DepthFrame
+  fullName: nuitrack.DepthFrame
+- uid: nuitrack.UserFrame
+  commentId: T:nuitrack.UserFrame
+  parent: nuitrack
+  isExternal: true
+  name: UserFrame
+  nameWithType: UserFrame
+  fullName: nuitrack.UserFrame
+- uid: UnityEngine.Color[]
+  isExternal: true
+  name: Color[]
+  nameWithType: Color[]
+  fullName: UnityEngine.Color[]
+  nameWithType.vb: Color()
+  fullName.vb: UnityEngine.Color()
+  name.vb: Color()
+  spec.csharp:
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.Pointer.VVRInput.Button
+  commentId: T:nuitrack.Pointer.VVRInput.Button
+  id: VVRInput.Button
+  parent: nuitrack.Pointer
+  children:
+  - nuitrack.Pointer.VVRInput.Button.A
+  - nuitrack.Pointer.VVRInput.Button.Any
+  - nuitrack.Pointer.VVRInput.Button.B
+  - nuitrack.Pointer.VVRInput.Button.Home
+  - nuitrack.Pointer.VVRInput.Button.Menu
+  - nuitrack.Pointer.VVRInput.Button.None
+  langs:
+  - csharp
+  - vb
+  name: VVRInput.Button
+  nameWithType: VVRInput.Button
+  fullName: nuitrack.Pointer.VVRInput.Button
+  type: Enum
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: Button
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Button
+    content.vb: >-
+      <Flags>
+
+      Public Enum Button
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: nuitrack.Pointer.VVRInput.Button.None
+  commentId: F:nuitrack.Pointer.VVRInput.Button.None
+  id: None
+  parent: nuitrack.Pointer.VVRInput.Button
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VVRInput.Button.None
+  fullName: nuitrack.Pointer.VVRInput.Button.None
+  type: Field
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: None
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: None = 0
+    return:
+      type: nuitrack.Pointer.VVRInput.Button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: nuitrack.Pointer.VVRInput.Button.Menu
+  commentId: F:nuitrack.Pointer.VVRInput.Button.Menu
+  id: Menu
+  parent: nuitrack.Pointer.VVRInput.Button
+  langs:
+  - csharp
+  - vb
+  name: Menu
+  nameWithType: VVRInput.Button.Menu
+  fullName: nuitrack.Pointer.VVRInput.Button.Menu
+  type: Field
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: Menu
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: Menu = 1
+    return:
+      type: nuitrack.Pointer.VVRInput.Button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: nuitrack.Pointer.VVRInput.Button.Home
+  commentId: F:nuitrack.Pointer.VVRInput.Button.Home
+  id: Home
+  parent: nuitrack.Pointer.VVRInput.Button
+  langs:
+  - csharp
+  - vb
+  name: Home
+  nameWithType: VVRInput.Button.Home
+  fullName: nuitrack.Pointer.VVRInput.Button.Home
+  type: Field
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: Home
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: Home = 2
+    return:
+      type: nuitrack.Pointer.VVRInput.Button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: nuitrack.Pointer.VVRInput.Button.A
+  commentId: F:nuitrack.Pointer.VVRInput.Button.A
+  id: A
+  parent: nuitrack.Pointer.VVRInput.Button
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: VVRInput.Button.A
+  fullName: nuitrack.Pointer.VVRInput.Button.A
+  type: Field
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: A
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: A = 4
+    return:
+      type: nuitrack.Pointer.VVRInput.Button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: nuitrack.Pointer.VVRInput.Button.B
+  commentId: F:nuitrack.Pointer.VVRInput.Button.B
+  id: B
+  parent: nuitrack.Pointer.VVRInput.Button
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: VVRInput.Button.B
+  fullName: nuitrack.Pointer.VVRInput.Button.B
+  type: Field
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: B
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: B = 8
+    return:
+      type: nuitrack.Pointer.VVRInput.Button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: nuitrack.Pointer.VVRInput.Button.Any
+  commentId: F:nuitrack.Pointer.VVRInput.Button.Any
+  id: Any
+  parent: nuitrack.Pointer.VVRInput.Button
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: VVRInput.Button.Any
+  fullName: nuitrack.Pointer.VVRInput.Button.Any
+  type: Field
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: Any
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: Any = -1
+    return:
+      type: nuitrack.Pointer.VVRInput.Button
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: nuitrack.Pointer
+  commentId: N:nuitrack.Pointer
+  name: nuitrack.Pointer
+  nameWithType: nuitrack.Pointer
+  fullName: nuitrack.Pointer
+- uid: nuitrack.Pointer.VVRInput.Button
+  commentId: T:nuitrack.Pointer.VVRInput.Button
+  parent: nuitrack.Pointer
+  name: VVRInput.Button
+  nameWithType: VVRInput.Button
+  fullName: nuitrack.Pointer.VVRInput.Button

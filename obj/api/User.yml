@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: User
+  commentId: N:User
+  id: User
+  children:
+  - User.UserAvatar
+  - User.UserAvatar.Connection
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: User
+  fullName: User
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: User.UserAvatar
+  commentId: T:User.UserAvatar
+  name: UserAvatar
+  nameWithType: UserAvatar
+  fullName: User.UserAvatar
+- uid: User.UserAvatar.Connection
+  commentId: T:User.UserAvatar.Connection
+  name: UserAvatar.Connection
+  nameWithType: UserAvatar.Connection
+  fullName: User.UserAvatar.Connection

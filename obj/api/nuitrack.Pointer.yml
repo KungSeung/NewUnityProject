@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.Pointer
+  commentId: N:nuitrack.Pointer
+  id: nuitrack.Pointer
+  children:
+  - nuitrack.Pointer.PointerPassing
+  - nuitrack.Pointer.PointerPassing.CalibrationAction
+  - nuitrack.Pointer.PointerPassing.ClickAction
+  - nuitrack.Pointer.PointerRotation
+  - nuitrack.Pointer.PointerVisuals
+  - nuitrack.Pointer.VVRInput
+  - nuitrack.Pointer.VVRInput.Button
+  langs:
+  - csharp
+  - vb
+  name: nuitrack.Pointer
+  nameWithType: nuitrack.Pointer
+  fullName: nuitrack.Pointer
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: nuitrack.Pointer.PointerPassing
+  commentId: T:nuitrack.Pointer.PointerPassing
+  name: PointerPassing
+  nameWithType: PointerPassing
+  fullName: nuitrack.Pointer.PointerPassing
+- uid: nuitrack.Pointer.PointerPassing.ClickAction
+  commentId: T:nuitrack.Pointer.PointerPassing.ClickAction
+  parent: nuitrack.Pointer
+  name: PointerPassing.ClickAction
+  nameWithType: PointerPassing.ClickAction
+  fullName: nuitrack.Pointer.PointerPassing.ClickAction
+- uid: nuitrack.Pointer.PointerPassing.CalibrationAction
+  commentId: T:nuitrack.Pointer.PointerPassing.CalibrationAction
+  parent: nuitrack.Pointer
+  name: PointerPassing.CalibrationAction
+  nameWithType: PointerPassing.CalibrationAction
+  fullName: nuitrack.Pointer.PointerPassing.CalibrationAction
+- uid: nuitrack.Pointer.PointerRotation
+  commentId: T:nuitrack.Pointer.PointerRotation
+  name: PointerRotation
+  nameWithType: PointerRotation
+  fullName: nuitrack.Pointer.PointerRotation
+- uid: nuitrack.Pointer.PointerVisuals
+  commentId: T:nuitrack.Pointer.PointerVisuals
+  name: PointerVisuals
+  nameWithType: PointerVisuals
+  fullName: nuitrack.Pointer.PointerVisuals
+- uid: nuitrack.Pointer.VVRInput
+  commentId: T:nuitrack.Pointer.VVRInput
+  name: VVRInput
+  nameWithType: VVRInput
+  fullName: nuitrack.Pointer.VVRInput
+- uid: nuitrack.Pointer.VVRInput.Button
+  commentId: T:nuitrack.Pointer.VVRInput.Button
+  parent: nuitrack.Pointer
+  name: VVRInput.Button
+  nameWithType: VVRInput.Button
+  fullName: nuitrack.Pointer.VVRInput.Button
+- uid: nuitrack.Pointer
+  commentId: N:nuitrack.Pointer
+  name: nuitrack.Pointer
+  nameWithType: nuitrack.Pointer
+  fullName: nuitrack.Pointer

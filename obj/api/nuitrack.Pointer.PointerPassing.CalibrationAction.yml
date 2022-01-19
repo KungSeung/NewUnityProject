@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.Pointer.PointerPassing.CalibrationAction
+  commentId: T:nuitrack.Pointer.PointerPassing.CalibrationAction
+  id: PointerPassing.CalibrationAction
+  parent: nuitrack.Pointer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PointerPassing.CalibrationAction
+  nameWithType: PointerPassing.CalibrationAction
+  fullName: nuitrack.Pointer.PointerPassing.CalibrationAction
+  type: Delegate
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/PointerPassing.cs
+    id: CalibrationAction
+    path: Assets/NuitrackSDK/Pointer/PointerPassing.cs
+    startLine: 24
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: public delegate void CalibrationAction(int handID, float progress);
+    parameters:
+    - id: handID
+      type: System.Int32
+    - id: progress
+      type: System.Single
+    content.vb: Public Delegate Sub CalibrationAction(handID As Integer, progress As Single)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: nuitrack.Pointer
+  commentId: N:nuitrack.Pointer
+  name: nuitrack.Pointer
+  nameWithType: nuitrack.Pointer
+  fullName: nuitrack.Pointer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

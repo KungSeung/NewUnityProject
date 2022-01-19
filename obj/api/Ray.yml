@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ray
+  commentId: N:Ray
+  id: Ray
+  children:
+  - Ray.RayScript
+  langs:
+  - csharp
+  - vb
+  name: Ray
+  nameWithType: Ray
+  fullName: Ray
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: Ray.RayScript
+  commentId: T:Ray.RayScript
+  name: RayScript
+  nameWithType: RayScript
+  fullName: Ray.RayScript

@@ -1,0 +1,564 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.Pointer.VVRInput
+  commentId: T:nuitrack.Pointer.VVRInput
+  id: VVRInput
+  parent: nuitrack.Pointer
+  children:
+  - nuitrack.Pointer.VVRInput.Get(nuitrack.Pointer.VVRInput.Button)
+  - nuitrack.Pointer.VVRInput.GetDown(nuitrack.Pointer.VVRInput.Button)
+  - nuitrack.Pointer.VVRInput.GetStickPos
+  - nuitrack.Pointer.VVRInput.GetUp(nuitrack.Pointer.VVRInput.Button)
+  - nuitrack.Pointer.VVRInput.Init
+  langs:
+  - csharp
+  - vb
+  name: VVRInput
+  nameWithType: VVRInput
+  fullName: nuitrack.Pointer.VVRInput
+  type: Class
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: VVRInput
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: public static class VVRInput
+    content.vb: Public Module VVRInput
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: nuitrack.Pointer.VVRInput.GetStickPos
+  commentId: M:nuitrack.Pointer.VVRInput.GetStickPos
+  id: GetStickPos
+  parent: nuitrack.Pointer.VVRInput
+  langs:
+  - csharp
+  - vb
+  name: GetStickPos()
+  nameWithType: VVRInput.GetStickPos()
+  fullName: nuitrack.Pointer.VVRInput.GetStickPos()
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: GetStickPos
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: public static Vector2 GetStickPos()
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function GetStickPos As Vector2
+  overload: nuitrack.Pointer.VVRInput.GetStickPos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Pointer.VVRInput.Get(nuitrack.Pointer.VVRInput.Button)
+  commentId: M:nuitrack.Pointer.VVRInput.Get(nuitrack.Pointer.VVRInput.Button)
+  id: Get(nuitrack.Pointer.VVRInput.Button)
+  parent: nuitrack.Pointer.VVRInput
+  langs:
+  - csharp
+  - vb
+  name: Get(VVRInput.Button)
+  nameWithType: VVRInput.Get(VVRInput.Button)
+  fullName: nuitrack.Pointer.VVRInput.Get(nuitrack.Pointer.VVRInput.Button)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: Get
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 31
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: public static bool Get(VVRInput.Button virtualMask)
+    parameters:
+    - id: virtualMask
+      type: nuitrack.Pointer.VVRInput.Button
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Get(virtualMask As VVRInput.Button) As Boolean
+  overload: nuitrack.Pointer.VVRInput.Get*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Pointer.VVRInput.GetDown(nuitrack.Pointer.VVRInput.Button)
+  commentId: M:nuitrack.Pointer.VVRInput.GetDown(nuitrack.Pointer.VVRInput.Button)
+  id: GetDown(nuitrack.Pointer.VVRInput.Button)
+  parent: nuitrack.Pointer.VVRInput
+  langs:
+  - csharp
+  - vb
+  name: GetDown(VVRInput.Button)
+  nameWithType: VVRInput.GetDown(VVRInput.Button)
+  fullName: nuitrack.Pointer.VVRInput.GetDown(nuitrack.Pointer.VVRInput.Button)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: GetDown
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 44
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: public static bool GetDown(VVRInput.Button virtualMask)
+    parameters:
+    - id: virtualMask
+      type: nuitrack.Pointer.VVRInput.Button
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetDown(virtualMask As VVRInput.Button) As Boolean
+  overload: nuitrack.Pointer.VVRInput.GetDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Pointer.VVRInput.GetUp(nuitrack.Pointer.VVRInput.Button)
+  commentId: M:nuitrack.Pointer.VVRInput.GetUp(nuitrack.Pointer.VVRInput.Button)
+  id: GetUp(nuitrack.Pointer.VVRInput.Button)
+  parent: nuitrack.Pointer.VVRInput
+  langs:
+  - csharp
+  - vb
+  name: GetUp(VVRInput.Button)
+  nameWithType: VVRInput.GetUp(VVRInput.Button)
+  fullName: nuitrack.Pointer.VVRInput.GetUp(nuitrack.Pointer.VVRInput.Button)
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: GetUp
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 62
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: public static bool GetUp(VVRInput.Button virtualMask)
+    parameters:
+    - id: virtualMask
+      type: nuitrack.Pointer.VVRInput.Button
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetUp(virtualMask As VVRInput.Button) As Boolean
+  overload: nuitrack.Pointer.VVRInput.GetUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: nuitrack.Pointer.VVRInput.Init
+  commentId: M:nuitrack.Pointer.VVRInput.Init
+  id: Init
+  parent: nuitrack.Pointer.VVRInput
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: VVRInput.Init()
+  fullName: nuitrack.Pointer.VVRInput.Init()
+  type: Method
+  source:
+    remote:
+      path: C:/UnityProject/NewTest/Assets/NuitrackSDK/Pointer/VVRInput.cs
+    id: Init
+    path: Assets/NuitrackSDK/Pointer/VVRInput.cs
+    startLine: 80
+  assemblies:
+  - Assembly-CSharp
+  namespace: nuitrack.Pointer
+  syntax:
+    content: public static void Init()
+    content.vb: Public Shared Sub Init
+  overload: nuitrack.Pointer.VVRInput.Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: nuitrack.Pointer
+  commentId: N:nuitrack.Pointer
+  name: nuitrack.Pointer
+  nameWithType: nuitrack.Pointer
+  fullName: nuitrack.Pointer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: nuitrack.Pointer.VVRInput.GetStickPos*
+  commentId: Overload:nuitrack.Pointer.VVRInput.GetStickPos
+  name: GetStickPos
+  nameWithType: VVRInput.GetStickPos
+  fullName: nuitrack.Pointer.VVRInput.GetStickPos
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: nuitrack.Pointer.VVRInput.Get*
+  commentId: Overload:nuitrack.Pointer.VVRInput.Get
+  name: Get
+  nameWithType: VVRInput.Get
+  fullName: nuitrack.Pointer.VVRInput.Get
+- uid: nuitrack.Pointer.VVRInput.Button
+  commentId: T:nuitrack.Pointer.VVRInput.Button
+  parent: nuitrack.Pointer
+  name: VVRInput.Button
+  nameWithType: VVRInput.Button
+  fullName: nuitrack.Pointer.VVRInput.Button
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: nuitrack.Pointer.VVRInput.GetDown*
+  commentId: Overload:nuitrack.Pointer.VVRInput.GetDown
+  name: GetDown
+  nameWithType: VVRInput.GetDown
+  fullName: nuitrack.Pointer.VVRInput.GetDown
+- uid: nuitrack.Pointer.VVRInput.GetUp*
+  commentId: Overload:nuitrack.Pointer.VVRInput.GetUp
+  name: GetUp
+  nameWithType: VVRInput.GetUp
+  fullName: nuitrack.Pointer.VVRInput.GetUp
+- uid: nuitrack.Pointer.VVRInput.Init*
+  commentId: Overload:nuitrack.Pointer.VVRInput.Init
+  name: Init
+  nameWithType: VVRInput.Init
+  fullName: nuitrack.Pointer.VVRInput.Init

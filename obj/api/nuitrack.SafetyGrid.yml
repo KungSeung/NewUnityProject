@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.SafetyGrid
+  commentId: N:nuitrack.SafetyGrid
+  id: nuitrack.SafetyGrid
+  children:
+  - nuitrack.SafetyGrid.SensorPointReplacer
+  langs:
+  - csharp
+  - vb
+  name: nuitrack.SafetyGrid
+  nameWithType: nuitrack.SafetyGrid
+  fullName: nuitrack.SafetyGrid
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: nuitrack.SafetyGrid.SensorPointReplacer
+  commentId: T:nuitrack.SafetyGrid.SensorPointReplacer
+  name: SensorPointReplacer
+  nameWithType: SensorPointReplacer
+  fullName: nuitrack.SafetyGrid.SensorPointReplacer

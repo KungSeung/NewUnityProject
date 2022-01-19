@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: nuitrack.Frame
+  commentId: N:nuitrack.Frame
+  id: nuitrack.Frame
+  children:
+  - nuitrack.Frame.DepthToTexture
+  - nuitrack.Frame.FrameOverloadUtils
+  - nuitrack.Frame.FrameToTexture`2
+  - nuitrack.Frame.FrameUtils
+  - nuitrack.Frame.RGBToTexture
+  - nuitrack.Frame.SegmentToTexture
+  - nuitrack.Frame.TextureCache
+  - nuitrack.Frame.TextureUtils
+  langs:
+  - csharp
+  - vb
+  name: nuitrack.Frame
+  nameWithType: nuitrack.Frame
+  fullName: nuitrack.Frame
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: nuitrack.Frame.FrameUtils
+  commentId: T:nuitrack.Frame.FrameUtils
+  parent: nuitrack.Frame
+  name: FrameUtils
+  nameWithType: FrameUtils
+  fullName: nuitrack.Frame.FrameUtils
+- uid: nuitrack.Frame.FrameOverloadUtils
+  commentId: T:nuitrack.Frame.FrameOverloadUtils
+  name: FrameOverloadUtils
+  nameWithType: FrameOverloadUtils
+  fullName: nuitrack.Frame.FrameOverloadUtils
+- uid: nuitrack.Frame.TextureUtils
+  commentId: T:nuitrack.Frame.TextureUtils
+  parent: nuitrack.Frame
+  name: TextureUtils
+  nameWithType: TextureUtils
+  fullName: nuitrack.Frame.TextureUtils
+- uid: nuitrack.Frame.DepthToTexture
+  commentId: T:nuitrack.Frame.DepthToTexture
+  parent: nuitrack.Frame
+  name: DepthToTexture
+  nameWithType: DepthToTexture
+  fullName: nuitrack.Frame.DepthToTexture
+- uid: nuitrack.Frame.TextureCache
+  commentId: T:nuitrack.Frame.TextureCache
+  parent: nuitrack.Frame
+  name: TextureCache
+  nameWithType: TextureCache
+  fullName: nuitrack.Frame.TextureCache
+- uid: nuitrack.Frame.FrameToTexture`2
+  commentId: T:nuitrack.Frame.FrameToTexture`2
+  name: FrameToTexture<T, U>
+  nameWithType: FrameToTexture<T, U>
+  fullName: nuitrack.Frame.FrameToTexture<T, U>
+  nameWithType.vb: FrameToTexture(Of T, U)
+  fullName.vb: nuitrack.Frame.FrameToTexture(Of T, U)
+  name.vb: FrameToTexture(Of T, U)
+  spec.csharp:
+  - uid: nuitrack.Frame.FrameToTexture`2
+    name: FrameToTexture
+    nameWithType: FrameToTexture
+    fullName: nuitrack.Frame.FrameToTexture
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: nuitrack.Frame.FrameToTexture`2
+    name: FrameToTexture
+    nameWithType: FrameToTexture
+    fullName: nuitrack.Frame.FrameToTexture
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: nuitrack.Frame.RGBToTexture
+  commentId: T:nuitrack.Frame.RGBToTexture
+  parent: nuitrack.Frame
+  name: RGBToTexture
+  nameWithType: RGBToTexture
+  fullName: nuitrack.Frame.RGBToTexture
+- uid: nuitrack.Frame.SegmentToTexture
+  commentId: T:nuitrack.Frame.SegmentToTexture
+  parent: nuitrack.Frame
+  name: SegmentToTexture
+  nameWithType: SegmentToTexture
+  fullName: nuitrack.Frame.SegmentToTexture
+- uid: nuitrack.Frame
+  commentId: N:nuitrack.Frame
+  name: nuitrack.Frame
+  nameWithType: nuitrack.Frame
+  fullName: nuitrack.Frame
